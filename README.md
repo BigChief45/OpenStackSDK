@@ -28,7 +28,7 @@ This script creates two **security groups** along with rules for each group. One
 
 Also, this script proceeds to create a new *demokey* keypair if it does not exist. Floating IPs are created and assigned to each instance so that they can be accessed through SSH.
 
-### scaling_fractals.py
+### [scaling_fractals.py](https://github.com/BigChief45/OpenStackSDK/blob/master/scaling_fractals.py)
 
 This script proceeds in to the *[Scaling Out](http://developer.openstack.org/firstapp-libcloud/scaling_out.html)* section of the tutorial. Different groups of instances are created along with their respective security groups and rules.
 
